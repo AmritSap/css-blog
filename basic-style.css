@@ -1,0 +1,44 @@
+.container {
+  background: green;
+  width: 90%;
+  margin-left: 100px;
+  margin-right: auto;
+  font-size: 30px;
+  display: flex;
+  height: ;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.container > div {
+  width: 70px;
+  height: 70px;
+  border: grey solid 0.3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+}
+
+.item-3 {
+  order: ;
+  color: red;
+  align-self: center;
+  background-color: brown;
+}
+
+.item-4 {
+  align-self: ;
+  background-color: honeydew;
+}
+
+.item-1 {
+  background-color: cornflowerblue;
+}
+
+.item-2 {
+  background-color: pink;
+}
+.item-5 {
+  background-color: yellow;
+}
